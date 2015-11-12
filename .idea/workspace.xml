@@ -63,16 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/impatient/chapter2/Functions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="114" column="26" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Arrays.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/impatient/chapter3/Arrays.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,8 +79,40 @@
       <file leaf-file-name="MapsAndTuples.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/impatient/chapter4/MapsAndTuples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60280377">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.6927711">
+              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+              <folding>
+                <element signature="e#28#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqLike.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/collection/SeqLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="561" column="6" selection-start-line="561" selection-start-column="6" selection-end-line="561" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calendar.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Calendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="601" column="7" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heyJudeLyrics.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/heyJudeLyrics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.310345">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,26 +161,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraversableLike.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/collection/TraversableLike.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="153" column="6" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Random.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/util/Random.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -179,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/test/scala/impatient/c3_Arrays.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/impatient/Arrays.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/impatient/chapter3/Arrays.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/impatient/chapter4/myfile.txt" />
         <option value="$PROJECT_DIR$/src/test/scala/impatient/chapter4/MapsAndTuples.scala" />
       </list>
     </option>
@@ -375,6 +378,10 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -454,9 +461,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\Impatient Scala\src\test\resources" />
+      <recent name="C:\Dev\Impatient Scala\src\test\scala" />
+      <recent name="C:\Dev\Impatient Scala\src\test\scala\impatient\chapter4" />
       <recent name="C:\Dev\Impatient Scala\src\main" />
       <recent name="C:\Dev\Impatient Scala\src\main\scala" />
-      <recent name="C:\Dev\Impatient Scala\src\test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -469,77 +478,77 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.c3_Arrays.q10: make a SystemFlavourMap">
-    <configuration default="false" name="c3_Arrays.q6: rearrange Array so they are in reverse sorted order?  Same with ArrayBuffer?" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+  <component name="RunManager" selected="ScalaTest.MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?">
+    <configuration default="false" name="MapsAndTuples.q6: defined linked hash map for 'Monday' to Calendar.MONDAY etc" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="root" />
-      <setting name="path" value="impatient.c3_Arrays" />
+      <setting name="path" value="impatient.chapter4.MapsAndTuples" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="q6: rearrange Array so they are in reverse sorted order?  Same with ArrayBuffer?" />
+      <setting name="testName" value="q6: defined linked hash map for 'Monday' to Calendar.MONDAY etc" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="c3_Arrays.q8: what is the most efficient way to remove all negative numbers except the first one in an array?" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="MapsAndTuples.q7: Print table of java properties formatted" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="root" />
-      <setting name="path" value="impatient.c3_Arrays" />
+      <setting name="path" value="impatient.chapter4.MapsAndTuples" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="q8: what is the most efficient way to remove all negative numbers except the first one in an array?" />
+      <setting name="testName" value="q7: Print table of java properties formatted" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="c3_Arrays.q9: make a collection of all time zones returned by java.util.TimeZone.getAvailableIds from america, and sort" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="MapsAndTuples.q8: write function minmax that returns pair of min &amp; max values" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="root" />
-      <setting name="path" value="impatient.c3_Arrays" />
+      <setting name="path" value="impatient.chapter4.MapsAndTuples" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="q9: make a collection of all time zones returned by java.util.TimeZone.getAvailableIds from america, and sort" />
+      <setting name="testName" value="q8: write function minmax that returns pair of min &amp; max values" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="MapsAndTuples.q9: write a function lteqgt(arr, v) that returns a triple containing count below v, equal v, above v" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="root" />
-      <setting name="path" value="impatient.c3_Arrays" />
+      <setting name="path" value="impatient.chapter4.MapsAndTuples" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" />
+      <setting name="testName" value="q9: write a function lteqgt(arr, v) that returns a triple containing count below v, equal v, above v" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="c3_Arrays.q10: make a SystemFlavourMap" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="root" />
-      <setting name="path" value="impatient.c3_Arrays" />
+      <setting name="path" value="impatient.chapter4.MapsAndTuples" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="q10: make a SystemFlavourMap" />
+      <setting name="testName" value="q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -760,19 +769,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q6: rearrange Array so they are in reverse sorted order?  Same with ArrayBuffer?" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q8: what is the most efficient way to remove all negative numbers except the first one in an array?" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q9: make a collection of all time zones returned by java.util.TimeZone.getAvailableIds from america, and sort" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q10: make a SystemFlavourMap" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q6: defined linked hash map for 'Monday' to Calendar.MONDAY etc" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q7: Print table of java properties formatted" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q8: write function minmax that returns pair of min &amp; max values" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q9: write a function lteqgt(arr, v) that returns a triple containing count below v, equal v, above v" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q10: make a SystemFlavourMap" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q9: make a collection of all time zones returned by java.util.TimeZone.getAvailableIds from america, and sort" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q8: what is the most efficient way to remove all negative numbers except the first one in an array?" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.c3_Arrays.q6: rearrange Array so they are in reverse sorted order?  Same with ArrayBuffer?" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q9: write a function lteqgt(arr, v) that returns a triple containing count below v, equal v, above v" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q8: write function minmax that returns pair of min &amp; max values" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q7: Print table of java properties formatted" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.MapsAndTuples.q6: defined linked hash map for 'Monday' to Calendar.MONDAY etc" />
       </list>
     </recent_temporary>
   </component>
@@ -817,35 +826,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="c3_Arrays_q10__make_a_SystemFlavourMap - 2015.11.12 at 04h 06m 40s.xml">
-      <configuration name="c3_Arrays.q10: make a SystemFlavourMap" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q10__What_happens_when_you_zip__Hello__and__World____Is_there_a_plausible_use_case_ - 2015.11.12 at 06h 58m 01s.xml">
+      <configuration name="MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q10__make_a_SystemFlavourMap - 2015.11.12 at 04h 10m 03s.xml">
-      <configuration name="c3_Arrays.q10: make a SystemFlavourMap" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q10__What_happens_when_you_zip__Hello__and__World____Is_there_a_plausible_use_case_ - 2015.11.12 at 06h 59m 54s.xml">
+      <configuration name="MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q10__make_a_SystemFlavourMap - 2015.11.12 at 04h 10m 27s.xml">
-      <configuration name="c3_Arrays.q10: make a SystemFlavourMap" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q10__What_happens_when_you_zip__Hello__and__World____Is_there_a_plausible_use_case_ - 2015.11.12 at 07h 00m 08s.xml">
+      <configuration name="MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 03h 52m 13s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q10__What_happens_when_you_zip__Hello__and__World____Is_there_a_plausible_use_case_ - 2015.11.12 at 07h 07m 09s.xml">
+      <configuration name="MapsAndTuples.q10. What happens when you zip 'Hello' and 'World'?  Is there a plausible use case?" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 03h 54m 04s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q7__Print_table_of_java_properties_formatted - 2015.11.12 at 06h 44m 10s.xml">
+      <configuration name="MapsAndTuples.q7: Print table of java properties formatted" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 03h 55m 10s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q7__Print_table_of_java_properties_formatted - 2015.11.12 at 06h 44m 37s.xml">
+      <configuration name="MapsAndTuples.q7: Print table of java properties formatted" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 03h 57m 48s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q7__Print_table_of_java_properties_formatted - 2015.11.12 at 06h 47m 30s.xml">
+      <configuration name="MapsAndTuples.q7: Print table of java properties formatted" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 04h 00m 35s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q7__Print_table_of_java_properties_formatted - 2015.11.12 at 06h 48m 56s.xml">
+      <configuration name="MapsAndTuples.q7: Print table of java properties formatted" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 04h 05m 37s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q8__write_function_minmax_that_returns_pair_of_min_&amp;_max_values - 2015.11.12 at 06h 52m 53s.xml">
+      <configuration name="MapsAndTuples.q8: write function minmax that returns pair of min &amp; max values" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="c3_Arrays_q9__make_a_sorted_collection_of_USA_timezones_(from_java_util_TimeZone_getAvailableIds) - 2015.11.12 at 04h 06m 56s.xml">
-      <configuration name="c3_Arrays.q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="MapsAndTuples_q9__write_a_function_lteqgt(arr,_v)_that_returns_a_triple_containing_count_below_v,_equal_v,_above_v - 2015.11.12 at 06h 55m 54s.xml">
+      <configuration name="MapsAndTuples.q9: write a function lteqgt(arr, v) that returns a triple containing count below v, equal v, above v" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -859,7 +868,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.50300753" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58131486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37716264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.49699247" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1202,11 +1211,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/heyJudeLyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.310345">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="601" column="7" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="561" column="6" selection-start-line="561" selection-start-column="6" selection-end-line="561" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/impatient/chapter4/MapsAndTuples.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60280377">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.6927711">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding>
+            <element signature="e#28#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
