@@ -10,6 +10,7 @@ This is my particular take on the 'Scala for the Impatient' book exercises.  I h
 
 * Feel free to comment if you think of better way to do things or my answers are just plain wrong
 * I'd especially appreciate any tips on a functional programming style
+* You can find everything baked into the test classes
 
 ### Who do I talk to? ###
 
