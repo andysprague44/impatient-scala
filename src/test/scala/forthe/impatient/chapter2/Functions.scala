@@ -1,6 +1,6 @@
-package impatient.chapter2
+package forthe.impatient.chapter2
 
-import org.scalacheck.Arbitrary._
+import org.scalacheck.Gen
 import org.scalacheck.Prop._
 import org.scalatest.prop.Checkers
 import org.scalatest.{FunSuite, Matchers}
@@ -27,6 +27,7 @@ class Functions extends FunSuite with Matchers with Checkers {
     //type
     `{}` match {
       case x: Unit => x //pass
+      case _ => fail()
     }
 
   }
@@ -97,28 +98,40 @@ class Functions extends FunSuite with Matchers with Checkers {
       //Seems like an awesome place to use the power of pattern matching
       //Could use standard for else blocks but that's boring (and not the Scala way)
       n match {
-        case _ if n % 2 == 0 && n > 0 =>
+        case _ if n % 2 == 0 && n > 0 => // if n is even and n > 0 do this
           val y = computePowers(x, n / 2)
           y * y
-        case _ if n > 0 =>
+        case _ if n > 0 => //else if n > 0 do this (must be odd or it wouldn't get here)
           x * computePowers(x, n - 1)
-        case _ if n == 0 =>
+        case _ if n == 0 => //else if n is 0 do this
           1.0
         case _ => //if we get here it must be -ve
           1.0 / computePowers(x, -n)
       }
     }
 
-    //Hey let's use ScalaCheck too!  So we are sure it works for all doubles and all int
-    //Well, except -2147483648, as int's are not-symmetric, and +2147483648 is out of range
-    check((x: Double, n: Int) => {
-      if (n == -2147483648) true //ignore
-      else {
-        val result = computePowers(x, n)
-        result == Math.pow(x, n) //can just check against a library function
-      }
-    })
+    //Hey let's use ScalaCheck too!  So we are sure it works for all doubles and all ints
+    //And after running the test it actually doesn't work for...
+    //    Int.Min value -2147483648
+    //              Int's are not-symmetric, and +2147483648 is out of range
+    //    VERY large doubles ^ -1,
+    //              Funnily enough this broke the Math.pow function
+    //              whereas in our implementation it worked!!
 
+    val x = Gen.choose[Double](-10E200, +10E200)
+    val n = Gen.choose[Int](-1, -1) //(Int.MinValue + 1, Int.MaxValue)
+    forAll(x, n) {
+      (x, n) => {
+        if (n == Int.MinValue) true
+        else {
+          println(x, n)
+          val result = computePowers(x, n)
+          result == Math.pow(x, n) //check against a library function
+        }
+      }
+    }
+
+    //Interesting - this failed once: computePowers(-1.662281876544218E237, -1)
     //Side-note: So much cooler than Java!
   }
 

@@ -1,20 +1,15 @@
-package impatient.chapter4
+package forthe.impatient.chapter4
 
 import java.io.File
 import java.util.Calendar
 
-import org.scalacheck.Gen
-import org.scalacheck.Prop._
 import org.scalatest.prop.Checkers
 import org.scalatest.{FunSuite, Matchers}
 
-import scala.collection.{mutable, SortedMap, SortedSet}
-import scala.collection.mutable.ArrayBuffer
-import scala.io.Source
-import scala.util.Random
+import scala.collection.{SortedMap, mutable}
 
 /**
-  * Chapter 1 exercies
+  * Chapter 4 exercies
   */
 class MapsAndTuples extends FunSuite with Matchers with Checkers {
 

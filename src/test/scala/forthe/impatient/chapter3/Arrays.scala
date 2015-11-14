@@ -1,4 +1,4 @@
-package impatient.chapter3
+package forthe.impatient.chapter3
 
 import org.scalacheck.Gen
 import org.scalacheck.Prop._
@@ -9,7 +9,7 @@ import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
 
 /**
-  * Chapter 1 exercies
+  * Chapter 3 exercies
   */
 class Arrays extends FunSuite with Matchers with Checkers {
 
@@ -73,7 +73,7 @@ class Arrays extends FunSuite with Matchers with Checkers {
 
   test("q5: compute average of Array[Double]") {
     def average(arr: Array[Double]) = arr.sum / arr.length
-    average(Array(1.0, 2.0, 3.0, 4.0, 5.0)) should be (5.0)
+    average(Array(1.0, 2.0, 3.0, 4.0, 5.0)) should be (3.0)
   }
 
   test("q6: rearrange Array so they are in reverse sorted order?  Same with ArrayBuffer?") {
@@ -130,8 +130,7 @@ class Arrays extends FunSuite with Matchers with Checkers {
     def myBetterFunctionalApproach(arr: Array[Int]) = {
       val start = arr.takeWhile(_ > 0)
       val rest = arr.dropWhile(_ > 0)
-      val end = rest.tail.filter(_ > 0)
-      start ++ rest.take(1) ++ end
+      start ++ rest.take(1) ++ rest.tail.filter(_ > 0)
     }
 
     //First check the functions work
@@ -141,25 +140,24 @@ class Arrays extends FunSuite with Matchers with Checkers {
     exerciseSuggestedMethod(testArr) should be (Array(1,2,-5,3,4))
     myBetterFunctionalApproach(testArr) should be (Array(1,2,-5,3,4))
 
-    //Lets create a large array and use that to check the timings (5000 elements)
+    //Lets create a large array and use that to check the timings (100,000 elements)
     val largeTestArray =
-      Array.fill(1000)(1) ++
-      Array.fill(1000)(-1) ++
-      Array.fill(1000)(1) ++
-      Array.fill(1000)(-10) ++
-      Array.fill(1000)(1)
+      Array.fill(10000)(1) ++
+      Array.fill(10000)(-1) ++
+      Array.fill(10000)(1) ++
+      Array.fill(60000)(-10) ++
+      Array.fill(10000)(1)
 
     /* Timing function */
     def timeMe[A](f: => A): Long = {val s = System.nanoTime(); f; System.nanoTime() - s}
 
-    //Looks like the first example is the quickest
-    //The second example is the second quickest
-    //Then the way suggested in the exercies is the slowest (so the wrong way around)
-    //Functional wins the day here though
-    //I don't know enough about O(n) time complexities to describe why though
-    timeMe(secondExample(largeTestArray)) should be < timeMe(exerciseSuggestedMethod(largeTestArray))
-    timeMe(firstExample(largeTestArray)) should be < timeMe(secondExample(largeTestArray))
+    // The first 3 examples decide whether to be quicker or slower each time
+    //Running this on a pretty old laptop, so it's probably that with more of an impact
+    //After 10 or so runs the functional way seems to normally be the quickest but can't be sure
+    //I don't know enough about O(n) time complexities to describe what should actually be the quickest and why
     timeMe(myBetterFunctionalApproach(largeTestArray)) should be < timeMe(firstExample(largeTestArray)) //winner winner chicken dinner
+    timeMe(myBetterFunctionalApproach(largeTestArray)) should be < timeMe(secondExample(largeTestArray)) //winner winner chicken dinner
+    timeMe(myBetterFunctionalApproach(largeTestArray)) should be < timeMe(exerciseSuggestedMethod(largeTestArray)) //winner winner chicken dinner
   }
 
   test("q9: make a sorted collection of USA timezones (from java.util.TimeZone.getAvailableIds)") {
@@ -204,7 +202,7 @@ class Arrays extends FunSuite with Matchers with Checkers {
     import java.awt.datatransfer._
 
     import scala.collection.JavaConverters._
-    val flavours = SystemFlavorMap.getDefaultFlavorMap().asInstanceOf[SystemFlavorMap]
+    val flavours = SystemFlavorMap.getDefaultFlavorMap.asInstanceOf[SystemFlavorMap]
     val natives = flavours.getNativesForFlavor(DataFlavor.imageFlavor).asScala
     natives should be (List("PNG", "JFIF", "DIB", "ENHMETAFILE", "METAFILEPICT").toBuffer)
     //Used to transform between operating systems and platforms I think,
