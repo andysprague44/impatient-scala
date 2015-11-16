@@ -81,7 +81,7 @@ class Basics extends FunSuite with Matchers {
 
   test("q9: what are take, drop, takeRight and dropRight?") {
     val string = "whatastring!"
-    val sub1 = string drop 4 take  //should replce with 'slice'
+    val sub1 = string drop 4 take 7 //should replace with 'slice'
     sub1 should be ("astring")
 
     val sub2 = string takeRight 8 dropRight 1

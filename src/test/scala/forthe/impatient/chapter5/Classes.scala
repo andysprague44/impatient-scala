@@ -89,7 +89,7 @@ class Classes extends FunSuite with Matchers with Checkers {
     val student = Student("Andy", 1989L)
     //Java style accessors
     student.setName("Still Andy")
-    student.getName should be("Still Andy")
+    student.getName() should be("Still Andy")
 
     //Scala style accessors (in the same class)
     student.name_=("Actually, it's Bob")
