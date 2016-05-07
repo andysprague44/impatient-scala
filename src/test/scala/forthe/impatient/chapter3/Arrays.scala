@@ -81,7 +81,7 @@ class Arrays extends FunSuite with Matchers with Checkers {
     rearrange(Array(3, 2, 5, 4, 6)) should be (Array(6, 5, 4, 3, 2))
 
     def rearrangeBuffer(b: ArrayBuffer[Int]) = b.sorted.reverse
-    rearrange(Array(3, 2, 5, 4, 6)) should be (Array(6, 5, 4, 3, 2))
+    rearrangeBuffer(ArrayBuffer(3, 2, 5, 4, 6)) should be (ArrayBuffer(6, 5, 4, 3, 2))
   }
 
   test("q7: remove duplicates from an array") {
