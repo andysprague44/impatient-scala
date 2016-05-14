@@ -2,6 +2,7 @@ package forthe.impatient.chapter7 {
 
   import org.scalatest.prop.{Checkers, GeneratorDrivenPropertyChecks}
   import org.scalatest.{FunSuite, Matchers}
+
   import scala.util.{Success, Try}
 
   /**
@@ -62,6 +63,7 @@ package forthe.impatient.chapter7 {
 
     test("q6: Write a program to copy all elements for java hash map to scala hash map") {
       import java.util.{HashMap => JavaHashMap}
+
       import scala.collection.immutable.{HashMap => ScalaHashMap}
 
       val javaHash = new JavaHashMap[Int, String]
@@ -74,8 +76,8 @@ package forthe.impatient.chapter7 {
       scalaHash.getOrElse(1, fail()) should be("one")
 
       //If we just coded to the Map interface this would be even easier
-      import scala.collection.{Map => ScalaMap}
       import scala.collection.JavaConverters._
+      import scala.collection.{Map => ScalaMap}
       val scalaMap: ScalaMap[Int, String] = javaHash.asScala
       scalaMap.getOrElse(1, fail()) should be("one")
 
@@ -108,8 +110,7 @@ package forthe.impatient.chapter7 {
         }
       }
 
-      import java.io.PrintStream
-      import java.io.ByteArrayOutputStream
+      import java.io.{ByteArrayOutputStream, PrintStream}
       val outContent: ByteArrayOutputStream = new ByteArrayOutputStream()
       val errContent: ByteArrayOutputStream = new ByteArrayOutputStream()
       System.setOut(new PrintStream(outContent))
@@ -124,15 +125,15 @@ package forthe.impatient.chapter7 {
     }
 
     test("q10: Aside from StringBuilder, what else does scala override?") {
-      java.lang.Boolean;        scala.Boolean
-      java.lang.Byte;           scala.Byte
-      java.lang.System.console; scala.Console
-      java.lang.Double;         scala.Double
-      java.lang.Float;          scala.Float
-      java.lang.Iterable;       scala.Iterable
-      java.lang.Long;           scala.Long
-      java.lang.Short;          scala.Short
-      java.lang.StringBuilder;  scala.StringBuilder
+      //      java.lang.Boolean;        scala.Boolean
+      //      java.lang.Byte;           scala.Byte
+      //      java.lang.System.console; scala.Console
+      //      java.lang.Double;         scala.Double
+      //      java.lang.Float;          scala.Float
+      //      java.lang.Iterable;       scala.Iterable
+      //      java.lang.Long;           scala.Long
+      //      java.lang.Short;          scala.Short
+      //      java.lang.StringBuilder;  scala.StringBuilder
     }
   }
 
