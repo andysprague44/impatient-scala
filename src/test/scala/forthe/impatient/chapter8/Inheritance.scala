@@ -27,7 +27,7 @@ class Inheritance extends FunSuite
     savingAccount.currentBalance should be(6.0) //$4 out plus $1 fee
   }
 
-  test("q3: implement favourite java/c++ toy inheritance hierarchy in scala") {
+  ignore("q3: implement favourite java/c++ toy inheritance hierarchy in scala") {
     //TODO On hold while travelling
   }
 
@@ -60,6 +60,70 @@ class Inheritance extends FunSuite
     (defaultSquare.x, defaultSquare.y, defaultSquare.height, defaultSquare.width) should be((0, 0, 0, 0))
     (squareFromWidth.x, squareFromWidth.y, squareFromWidth.height, squareFromWidth.width) should be((0, 0, 5, 5))
     (squareFromCorner.x, squareFromCorner.y, squareFromCorner.width, squareFromCorner.height) should be((3, 4, 0, 0))
+  }
+
+  test("q8: Analyze Person and SecretAgent classes") {
+    //    $ javap -p Person.class
+    //    Compiled from "Person.scala"
+    //    public class forthe.impatient.chapter8.Person {
+    //      private final java.lang.String name;
+    //      public java.lang.String name();
+    //      public java.lang.String toString();
+    //      public forthe.impatient.chapter8.Person(java.lang.String);
+    //    }
+    //
+    //    $ javap -p SecretAgent.class
+    //    Compiled from "Person.scala"
+    //    public class forthe.impatient.chapter8.SecretAgent extends forthe.impatient.chapter8.Person {
+    //      private final java.lang.String name;
+    //      public java.lang.String name();
+    //      public java.lang.String toString();
+    //      public forthe.impatient.chapter8.SecretAgent(java.lang.String);
+    //    }
+    //    With '-c' option gives a lot of rubbish I can't be bothered to interpret.
+    //    I'm going to write this off as a bad question.
+  }
+
+  test("q9:  Replace val range with def in Creature class, what happens?") {
+
+    val creature = new Creature //range = 10
+    val antWithValExtendingVal = new Ant //range = 2
+    antWithValExtendingVal.env.length should be(0) //Not 2 or 10, early definition problem!
+
+    val antWithDefExtendingDef = new AntWithDef
+    antWithDefExtendingDef.env.length should be(2) //When we call a def it always runs it, whether initialised or not? Is that right?
+
+    val antWithValExtendingDef = new AntWithVal
+    antWithValExtendingDef.env.length should be(0) //Setting as val reverts to the same issue
+  }
+
+  test("q10: Explain meaning of protected keyword") {
+    //    The first 'protected' makes the primary constructor visible for extending classes only
+    //    The second 'protected' makes the field 'elems' visible at package level only
+
+    // *** Using Stack directly ***:
+    import scala.collection.immutable._
+
+    // Doesn't compile:
+    //val stack = new collection.immutable.Stack[String](List("2"))
+    // INSTEAD can use default constructor and provided method:
+    val stackDefault = new Stack[String]().push("ying").push("yang")
+
+    //Doesn't compile:
+    //val elems = stackDefault.elems
+    //INSTEAD have to use provided methods e.g. 'head', 'tail'
+    val first = stackDefault.head
+    val second = stackDefault.tail.head
+    first :: second :: Nil should contain only("ying", "yang")
+
+    // *** Using 'SubStack' that extends Stack ***:
+    class SubStack[String](val subElems: List[String]) extends Stack[String](subElems /*sub class can access super constructor*/) {
+      val superElems = "yang" :: elems /*sub class can access super field*/
+    }
+
+    val subStack = new SubStack[String](List("ying"))
+    val subElems = subStack.superElems
+    subElems should contain only("ying", "yang")
   }
 }
 
