@@ -1,0 +1,4 @@
+*.com
+*.class
+.idea/*
+target/*
