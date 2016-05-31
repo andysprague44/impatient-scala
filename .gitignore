@@ -1,4 +1,4 @@
-*.com
 *.class
-.idea/*
-target/*
+.idea/
+target/
+out/

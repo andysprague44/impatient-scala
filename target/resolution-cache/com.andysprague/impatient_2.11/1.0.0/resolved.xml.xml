@@ -4,7 +4,7 @@
 		module="impatient_2.11"
 		revision="1.0.0"
 		status="integration"
-		publication="20151105043746"
+		publication="20160611205352"
 	>
 		<description>
 		impatient
@@ -27,12 +27,15 @@
 	</configurations>
 	<publications>
 		<artifact name="impatient_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="impatient_2.11" type="jar" ext="jar" conf="optional" e:classifier="download, resolveClassifiers, resolveSbtClassifiers"/>
+		<artifact name="impatient_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="impatient_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="impatient_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.2" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.11.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.4" conf="test->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.12.5" conf="test->default(compile)"/>
+		<dependency org="org.scalamock" name="scalamock-scalatest-support_2.11" rev="3.2.2" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

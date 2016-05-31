@@ -652,8 +652,8 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!compiler-interface-bin.jar
@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 2886ms :: artifacts dl 380ms
+[debug] :: resolution report :: resolve 9430ms :: artifacts dl 284ms
 [debug] 	report for com.andysprague#impatient$sbt_2.11;1.0.0 default produced in C:\Dev\Impatient Scala\target\resolution-cache\reports\com.andysprague-impatient$sbt_2.11-default.xml
-[debug] 	resolve done (2886ms resolve - 380ms download)
+[debug] 	resolve done (9430ms resolve - 284ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.andysprague#impatient$sources_2.11;1.0.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 299ms :: artifacts dl 392ms
+[debug] :: resolution report :: resolve 719ms :: artifacts dl 126ms
 [debug] 	report for com.andysprague#impatient$sources_2.11;1.0.0 default produced in C:\Dev\Impatient Scala\target\resolution-cache\reports\com.andysprague-impatient$sources_2.11-default.xml
-[debug] 	resolve done (299ms resolve - 392ms download)
+[debug] 	resolve done (719ms resolve - 126ms download)

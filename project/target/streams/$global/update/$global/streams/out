@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Dev/Impatient%20Scala/project/}impatient-scala-build...
+[info] Updating {file:/C:/Dev/impatient-scala/project/}impatient-scala-build...
 [debug] :: resolving dependencies :: default#impatient-scala-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#impatient-scala-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#impatient-scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27ea7bf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e814247
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1713,8 +1713,8 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!compiler-interface-bin.jar
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 18309ms :: artifacts dl 1971ms
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT compile produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-compile.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT runtime produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-runtime.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT test produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-test.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT provided produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-provided.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT optional produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-optional.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT compile-internal produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-compile-internal.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT runtime-internal produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-runtime-internal.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT test-internal produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-test-internal.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT plugin produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-plugin.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT sources produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-sources.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT docs produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-docs.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT pom produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-pom.xml
-[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT scala-tool produced in C:\Dev\Impatient Scala\project\target\resolution-cache\reports\default-impatient-scala-build-scala-tool.xml
-[debug] 	resolve done (18309ms resolve - 1971ms download)
+[debug] :: resolution report :: resolve 1053ms :: artifacts dl 98ms
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT compile produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-compile.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT runtime produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-runtime.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT test produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-test.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT provided produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-provided.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT optional produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-optional.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT compile-internal produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-compile-internal.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT runtime-internal produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-runtime-internal.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT test-internal produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-test-internal.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT plugin produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-plugin.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT sources produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-sources.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT docs produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-docs.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT pom produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-pom.xml
+[debug] 	report for default#impatient-scala-build;0.1-SNAPSHOT scala-tool produced in C:\Dev\impatient-scala\project\target\resolution-cache\reports\default-impatient-scala-build-scala-tool.xml
+[debug] 	resolve done (1053ms resolve - 98ms download)
 [info] Done updating.
